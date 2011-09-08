@@ -1,0 +1,11 @@
+PHP.Bitly is a very simplistic PHP class to extract URLS from a given text and get them shortened. [Similar to what happens on twitter]. 
+
+
+Usage:
+$sr = new URLShorten('my bit.ly key');
+echo $sr->shorten('http://www.example.org/some_long_really_long_url'); 
+
+echo $sr->shorten_and_replace('Hi, check this url out: http://example.org/the_long_url'); 
+
+The code is simple. 
+
